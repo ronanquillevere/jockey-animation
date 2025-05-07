@@ -1,0 +1,120 @@
+{
+  "compositionIds": ["compNode#5", "compNode#1"],
+  "paletteLayerId": "colorArray#2",
+  "assets": {
+    "logo": "asset#19",
+    "background": "asset#20"
+  },
+  "fieldMappings": [
+    {
+      "optionalInfo": "logo",
+      "layerId": "footageShape#9",
+      "overrides": [
+        {
+          "scriptingPath": "hidden",
+          "jsonPath": "logo.active",
+          "transform": "return arguments[1].previewMode ? false : !arguments[0];",
+          "overrideWithFalse": true
+        }
+      ]
+    },
+    {
+      "optionalInfo": "background",
+      "layerId": "footageShape#8",
+      "overrides": [
+        {
+          "scriptingPath": "hidden",
+          "jsonPath": "background.active",
+          "transform": "return arguments[1].previewMode ? false : !arguments[0];",
+          "overrideWithFalse": true
+        }
+      ]
+    },
+    {
+      "optionalInfo": "Hide pellicule",
+      "layerId": "group#26",
+      "overrides": [
+        {
+          "scriptingPath": "hidden",
+          "jsonPath": "previewMode",
+          "transform": "return arguments[1].previewMode ? false : !arguments[0];",
+          "overrideWithFalse": true
+        }
+      ]
+    },
+
+    {
+      "optionalInfo": "text_font_info_typeface#1",
+      "layerId": "typeface#1",
+      "overrides": [
+        {
+          "scriptingPath": "font.font",
+          "jsonPath": "line1.fontFamily"
+        },
+        {
+          "scriptingPath": "font.style",
+          "jsonPath": "line1.fontStyle"
+        }
+      ]
+    },
+    {
+      "optionalInfo": "text_color_info_colorInfo#1",
+      "layerId": "colorInfo#1",
+      "overrides": [
+        {
+          "scriptingPath": "inColor",
+          "jsonPath": "line1.color"
+        }
+      ]
+    }
+    ,
+    {
+      "optionalInfo": "text_value_info_stringArray#5",
+      "layerId": "stringArray#5",
+      "overrides": [
+        {
+          "scriptingPath": "array.0",
+          "jsonPath": "line1.value",
+          "overrideWithEmpty": true
+        }
+      ]
+    }
+  ,
+{
+      "optionalInfo": "text_font_info_typeface#2",
+      "layerId": "typeface#4",
+      "overrides": [
+        {
+          "scriptingPath": "font.font",
+          "jsonPath": "line2.fontFamily"
+        },
+        {
+          "scriptingPath": "font.style",
+          "jsonPath": "line2.fontStyle"
+        }
+      ]
+    },
+    {
+      "optionalInfo": "text_color_info_colorInfo#2",
+      "layerId": "colorInfo#2",
+      "overrides": [
+        {
+          "scriptingPath": "inColor",
+          "jsonPath": "line2.color"
+        }
+      ]
+    }
+    ,
+    {
+      "optionalInfo": "text_value_info_stringArray#5",
+      "layerId": "stringArray#5",
+      "overrides": [
+        {
+          "scriptingPath": "array.1",
+          "jsonPath": "line2.value",
+          "overrideWithEmpty": true
+        }
+      ]
+    }
+  ]
+}

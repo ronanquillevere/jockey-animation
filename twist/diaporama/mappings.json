@@ -1,0 +1,288 @@
+{
+  "compositionIds": ["compNode#1", "compNode#2"],
+  "paletteLayerId": "colorArray#2",
+  "assets": { 
+		"Media1": "asset#2",
+		"Media2": "asset#3",
+		"Media3": "asset#4",
+		"Media4": "asset#5",
+		"Media5": "asset#6",
+		"Media6": "asset#7",
+		"Media7": "asset#8",
+		"Media8": "asset#9",
+		"Media9": "asset#10",
+		"Media10": "asset#11"
+	 },
+  "fieldMappings":[
+    
+    {
+      "optionalInfo": "Medium Media1 - footageShape#1",
+      "layerId": "footageShape#1",
+      "overrides": [
+        {
+          "scriptingPath": "hidden",
+          "jsonPath": "Media1.active",
+          "transform": "return arguments[1].previewMode ? false : !arguments[0];",
+          "overrideWithFalse": true
+        }
+      ]
+    }
+    ,
+
+    {
+      "optionalInfo": "Hide pellicule Media1 - footageShape#1",
+      "layerId": "group#3",
+      "overrides": [
+        {
+          "scriptingPath": "hidden",
+          "jsonPath": "previewMode",
+          "transform": "return !arguments[0];"
+        }
+      ]
+    }
+    ,
+
+    {
+      "optionalInfo": "Medium Media2 - footageShape#3",
+      "layerId": "footageShape#3",
+      "overrides": [
+        {
+          "scriptingPath": "hidden",
+          "jsonPath": "Media2.active",
+          "transform": "return arguments[1].previewMode ? false : !arguments[0];",
+          "overrideWithFalse": true
+        }
+      ]
+    }
+    ,
+
+    {
+      "optionalInfo": "Hide pellicule Media2 - footageShape#3",
+      "layerId": "group#11",
+      "overrides": [
+        {
+          "scriptingPath": "hidden",
+          "jsonPath": "previewMode",
+          "transform": "return !arguments[0];"
+        }
+      ]
+    }
+    ,
+
+    {
+      "optionalInfo": "Medium Media3 - footageShape#4",
+      "layerId": "footageShape#4",
+      "overrides": [
+        {
+          "scriptingPath": "hidden",
+          "jsonPath": "Media3.active",
+          "transform": "return arguments[1].previewMode ? false : !arguments[0];",
+          "overrideWithFalse": true
+        }
+      ]
+    }
+    ,
+
+    {
+      "optionalInfo": "Hide pellicule Media3 - footageShape#4",
+      "layerId": "group#14",
+      "overrides": [
+        {
+          "scriptingPath": "hidden",
+          "jsonPath": "previewMode",
+          "transform": "return !arguments[0];"
+        }
+      ]
+    }
+    ,
+
+    {
+      "optionalInfo": "Medium Media4 - footageShape#5",
+      "layerId": "footageShape#5",
+      "overrides": [
+        {
+          "scriptingPath": "hidden",
+          "jsonPath": "Media4.active",
+          "transform": "return arguments[1].previewMode ? false : !arguments[0];",
+          "overrideWithFalse": true
+        }
+      ]
+    }
+    ,
+
+    {
+      "optionalInfo": "Hide pellicule Media4 - footageShape#5",
+      "layerId": "group#16",
+      "overrides": [
+        {
+          "scriptingPath": "hidden",
+          "jsonPath": "previewMode",
+          "transform": "return !arguments[0];"
+        }
+      ]
+    }
+    ,
+
+    {
+      "optionalInfo": "Medium Media5 - footageShape#7",
+      "layerId": "footageShape#7",
+      "overrides": [
+        {
+          "scriptingPath": "hidden",
+          "jsonPath": "Media5.active",
+          "transform": "return arguments[1].previewMode ? false : !arguments[0];",
+          "overrideWithFalse": true
+        }
+      ]
+    }
+    ,
+
+    {
+      "optionalInfo": "Hide pellicule Media5 - footageShape#7",
+      "layerId": "group#24",
+      "overrides": [
+        {
+          "scriptingPath": "hidden",
+          "jsonPath": "previewMode",
+          "transform": "return !arguments[0];"
+        }
+      ]
+    }
+    ,
+
+    {
+      "optionalInfo": "Medium Media6 - footageShape#6",
+      "layerId": "footageShape#6",
+      "overrides": [
+        {
+          "scriptingPath": "hidden",
+          "jsonPath": "Media6.active",
+          "transform": "return arguments[1].previewMode ? false : !arguments[0];",
+          "overrideWithFalse": true
+        }
+      ]
+    }
+    ,
+
+    {
+      "optionalInfo": "Hide pellicule Media6 - footageShape#6",
+      "layerId": "group#20",
+      "overrides": [
+        {
+          "scriptingPath": "hidden",
+          "jsonPath": "previewMode",
+          "transform": "return !arguments[0];"
+        }
+      ]
+    }
+    ,
+
+    {
+      "optionalInfo": "Medium Media7 - footageShape#9",
+      "layerId": "footageShape#9",
+      "overrides": [
+        {
+          "scriptingPath": "hidden",
+          "jsonPath": "Media7.active",
+          "transform": "return arguments[1].previewMode ? false : !arguments[0];",
+          "overrideWithFalse": true
+        }
+      ]
+    }
+    ,
+
+    {
+      "optionalInfo": "Hide pellicule Media7 - footageShape#9",
+      "layerId": "group#30",
+      "overrides": [
+        {
+          "scriptingPath": "hidden",
+          "jsonPath": "previewMode",
+          "transform": "return !arguments[0];"
+        }
+      ]
+    }
+    ,
+
+    {
+      "optionalInfo": "Medium Media8 - footageShape#8",
+      "layerId": "footageShape#8",
+      "overrides": [
+        {
+          "scriptingPath": "hidden",
+          "jsonPath": "Media8.active",
+          "transform": "return arguments[1].previewMode ? false : !arguments[0];",
+          "overrideWithFalse": true
+        }
+      ]
+    }
+    ,
+
+    {
+      "optionalInfo": "Hide pellicule Media8 - footageShape#8",
+      "layerId": "group#26",
+      "overrides": [
+        {
+          "scriptingPath": "hidden",
+          "jsonPath": "previewMode",
+          "transform": "return !arguments[0];"
+        }
+      ]
+    }
+    ,
+
+    {
+      "optionalInfo": "Medium Media9 - footageShape#10",
+      "layerId": "footageShape#10",
+      "overrides": [
+        {
+          "scriptingPath": "hidden",
+          "jsonPath": "Media9.active",
+          "transform": "return arguments[1].previewMode ? false : !arguments[0];",
+          "overrideWithFalse": true
+        }
+      ]
+    }
+    ,
+
+    {
+      "optionalInfo": "Hide pellicule Media9 - footageShape#10",
+      "layerId": "group#31",
+      "overrides": [
+        {
+          "scriptingPath": "hidden",
+          "jsonPath": "previewMode",
+          "transform": "return !arguments[0];"
+        }
+      ]
+    }
+    ,
+
+    {
+      "optionalInfo": "Medium Media10 - footageShape#11",
+      "layerId": "footageShape#11",
+      "overrides": [
+        {
+          "scriptingPath": "hidden",
+          "jsonPath": "Media10.active",
+          "transform": "return arguments[1].previewMode ? false : !arguments[0];",
+          "overrideWithFalse": true
+        }
+      ]
+    }
+    ,
+
+    {
+      "optionalInfo": "Hide pellicule Media10 - footageShape#11",
+      "layerId": "group#34",
+      "overrides": [
+        {
+          "scriptingPath": "hidden",
+          "jsonPath": "previewMode",
+          "transform": "return !arguments[0];"
+        }
+      ]
+    }
+    
+  ]
+}

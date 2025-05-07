@@ -1,0 +1,68 @@
+{
+  "compositionIds": ["compNode#1", "compNode#2"],
+  "paletteLayerId": "colorArray#2",
+  "assets": {
+    "background": "asset#2"
+  },
+  "fieldMappings": [
+    {
+      "optionalInfo": "text_font_info_typeface#1",
+      "layerId": "typeface#1",
+      "overrides": [
+        {
+          "scriptingPath": "font.font",
+          "jsonPath": "line1.fontFamily"
+        },
+        {
+          "scriptingPath": "font.style",
+          "jsonPath": "line1.fontStyle"
+        }
+      ]
+    },
+    {
+      "optionalInfo": "text_color_info_colorInfo#1",
+      "layerId": "colorInfo#1",
+      "overrides": [
+        {
+          "scriptingPath": "inColor",
+          "jsonPath": "line1.color"
+        }
+      ]
+    },
+    {
+      "optionalInfo": "text_value_info_stringArray#1",
+      "layerId": "stringArray#1",
+      "overrides": [
+        {
+          "scriptingPath": "array.0",
+          "jsonPath": "line1.value",
+          "overrideWithEmpty": true
+        }
+      ]
+    },
+    {
+      "optionalInfo": "Medium background - footageShape#16",
+      "layerId": "footageShape#16",
+      "overrides": [
+        {
+          "scriptingPath": "hidden",
+          "jsonPath": "background.active",
+          "transform": "return arguments[1].previewMode ? false : !arguments[0];",
+          "overrideWithFalse": true
+        }
+      ]
+    },
+    {
+      "optionalInfo": "Hide pellicule background - footageShape#16",
+      "layerId": "group#65",
+      "overrides": [
+        {
+          "scriptingPath": "hidden",
+          "jsonPath": "previewMode",
+          "transform": "return arguments[1].previewMode ? false : !arguments[0];",
+          "overrideWithFalse": true
+        }
+      ]
+    }
+  ]
+}
