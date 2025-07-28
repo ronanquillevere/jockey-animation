@@ -1,0 +1,468 @@
+{
+  "compositionIds": ["compNode#1", "compNode#2"],
+  "paletteLayerId": "colorArray#2",
+  "assets": {
+  },
+  "fieldMappings": [
+    {
+      "optionalInfo": "text_font_info_typeface#5",
+      "layerId": "typeface#1",
+      "overrides": [
+        {
+          "scriptingPath": "font.font",
+          "jsonPath": "line1.fontFamily"
+        },
+        {
+          "scriptingPath": "font.style",
+          "jsonPath": "line1.fontStyle"
+        }
+      ]
+    },
+    {
+      "optionalInfo": "text_color_info_undefined",
+      "layerId": "colorInfo#1",
+      "overrides": [
+        {
+          "scriptingPath": "inColor",
+          "jsonPath": "line1.color"
+        }
+      ]
+    },
+    {
+      "optionalInfo": "Color change",
+      "layerId": "colorShader#1",
+      "overrides": [
+         {
+            "scriptingPath": "blendMode",
+            "jsonPath": "line1.color",
+            "transform": "return arguments[0]===null || arguments[0]=== undefined ? 4 : 1;"
+         }
+      ]
+   },
+    {
+      "optionalInfo": "text_value_info_stringArray#1",
+      "layerId": "stringArray#1",
+      "overrides": [
+        {
+          "scriptingPath": "array.0",
+          "jsonPath": "line1.value",
+          "overrideWithEmpty": true
+        }
+      ]
+    },
+    {
+      "optionalInfo": "text_font_info_typeface#6",
+      "layerId": "typeface#2",
+      "overrides": [
+        {
+          "scriptingPath": "font.font",
+          "jsonPath": "line2.fontFamily"
+        },
+        {
+          "scriptingPath": "font.style",
+          "jsonPath": "line2.fontStyle"
+        }
+      ]
+    },
+    {
+      "optionalInfo": "text_color_info_undefined",
+      "layerId": "colorInfo#2",
+      "overrides": [
+        {
+          "scriptingPath": "inColor",
+          "jsonPath": "line2.color"
+        }
+      ]
+    },
+    {
+      "optionalInfo": "Color change",
+      "layerId": "colorShader#2",
+      "overrides": [
+         {
+            "scriptingPath": "blendMode",
+            "jsonPath": "line2.color",
+            "transform": "return arguments[0]===null || arguments[0]=== undefined ? 4 : 1;"
+         }
+      ]
+   },
+    {
+      "optionalInfo": "text_value_info_stringArray#1",
+      "layerId": "stringArray#1",
+      "overrides": [
+        {
+          "scriptingPath": "array.1",
+          "jsonPath": "line2.value",
+          "overrideWithEmpty": true
+        }
+      ]
+    },
+    {
+      "optionalInfo": "text_font_info_typeface#7",
+      "layerId": "typeface#3",
+      "overrides": [
+        {
+          "scriptingPath": "font.font",
+          "jsonPath": "line3.fontFamily"
+        },
+        {
+          "scriptingPath": "font.style",
+          "jsonPath": "line3.fontStyle"
+        }
+      ]
+    },
+    {
+      "optionalInfo": "text_color_info_colorInfo#3",
+      "layerId": "colorInfo#3",
+      "overrides": [
+        {
+          "scriptingPath": "inColor",
+          "jsonPath": "line3.color"
+        }
+      ]
+    },
+    {
+      "optionalInfo": "Color change",
+      "layerId": "colorShader#3",
+      "overrides": [
+         {
+            "scriptingPath": "blendMode",
+            "jsonPath": "line3.color",
+            "transform": "return arguments[0]===null || arguments[0]=== undefined ? 4 : 1;"
+         }
+      ]
+   },
+    {
+      "optionalInfo": "text_value_info_stringArray#1",
+      "layerId": "stringArray#1",
+      "overrides": [
+        {
+          "scriptingPath": "array.2",
+          "jsonPath": "line3.value",
+          "overrideWithEmpty": true
+        }
+      ]
+    },
+    {
+      "optionalInfo": "text_font_info_typeface#8",
+      "layerId": "typeface#4",
+      "overrides": [
+        {
+          "scriptingPath": "font.font",
+          "jsonPath": "line4.fontFamily"
+        },
+        {
+          "scriptingPath": "font.style",
+          "jsonPath": "line4.fontStyle"
+        }
+      ]
+    },
+    {
+      "optionalInfo": "text_color_info_colorInfo#4",
+      "layerId": "colorInfo#4",
+      "overrides": [
+        {
+          "scriptingPath": "inColor",
+          "jsonPath": "line4.color"
+        }
+      ]
+    },
+    {
+      "optionalInfo": "Color change",
+      "layerId": "colorShader#4",
+      "overrides": [
+         {
+            "scriptingPath": "blendMode",
+            "jsonPath": "line4.color",
+            "transform": "return arguments[0]===null || arguments[0]=== undefined ? 4 : 1;"
+         }
+      ]
+   },
+    {
+      "optionalInfo": "text_value_info_stringArray#1",
+      "layerId": "stringArray#1",
+      "overrides": [
+        {
+          "scriptingPath": "array.3",
+          "jsonPath": "line4.value",
+          "overrideWithEmpty": true
+        }
+      ]
+    },
+    {
+      "optionalInfo": "text_font_info_typeface#9",
+      "layerId": "typeface#5",
+      "overrides": [
+        {
+          "scriptingPath": "font.font",
+          "jsonPath": "line5.fontFamily"
+        },
+        {
+          "scriptingPath": "font.style",
+          "jsonPath": "line5.fontStyle"
+        }
+      ]
+    },
+    {
+      "optionalInfo": "text_color_info_colorInfo#5",
+      "layerId": "colorInfo#5",
+      "overrides": [
+        {
+          "scriptingPath": "inColor",
+          "jsonPath": "line5.color"
+        }
+      ]
+    },
+    {
+      "optionalInfo": "Color change",
+      "layerId": "colorShader#5",
+      "overrides": [
+         {
+            "scriptingPath": "blendMode",
+            "jsonPath": "line5.color",
+            "transform": "return arguments[0]===null || arguments[0]=== undefined ? 4 : 1;"
+         }
+      ]
+   },
+    {
+      "optionalInfo": "text_value_info_stringArray#1",
+      "layerId": "stringArray#1",
+      "overrides": [
+        {
+          "scriptingPath": "array.4",
+          "jsonPath": "line5.value",
+          "overrideWithEmpty": true
+        }
+      ]
+    },
+    {
+      "optionalInfo": "text_font_info_typeface#10",
+      "layerId": "typeface#6",
+      "overrides": [
+        {
+          "scriptingPath": "font.font",
+          "jsonPath": "line6.fontFamily"
+        },
+        {
+          "scriptingPath": "font.style",
+          "jsonPath": "line6.fontStyle"
+        }
+      ]
+    },
+    {
+      "optionalInfo": "text_color_info_colorInfo#6",
+      "layerId": "colorInfo#6",
+      "overrides": [
+        {
+          "scriptingPath": "inColor",
+          "jsonPath": "line6.color"
+        }
+      ]
+    },
+    {
+      "optionalInfo": "Color change",
+      "layerId": "colorShader#6",
+      "overrides": [
+         {
+            "scriptingPath": "blendMode",
+            "jsonPath": "line6.color",
+            "transform": "return arguments[0]===null || arguments[0]=== undefined ? 4 : 1;"
+         }
+      ]
+   },
+    {
+      "optionalInfo": "text_value_info_stringArray#1",
+      "layerId": "stringArray#1",
+      "overrides": [
+        {
+          "scriptingPath": "array.5",
+          "jsonPath": "line6.value",
+          "overrideWithEmpty": true
+        }
+      ]
+    },
+    {
+      "optionalInfo": "text_font_info_typeface#11",
+      "layerId": "typeface#7",
+      "overrides": [
+        {
+          "scriptingPath": "font.font",
+          "jsonPath": "line7.fontFamily"
+        },
+        {
+          "scriptingPath": "font.style",
+          "jsonPath": "line7.fontStyle"
+        }
+      ]
+    },
+    {
+      "optionalInfo": "text_color_info_colorInfo#7",
+      "layerId": "colorInfo#7",
+      "overrides": [
+        {
+          "scriptingPath": "inColor",
+          "jsonPath": "line7.color"
+        }
+      ]
+    },
+    {
+      "optionalInfo": "Color change",
+      "layerId": "colorShader#7",
+      "overrides": [
+         {
+            "scriptingPath": "blendMode",
+            "jsonPath": "line7.color",
+            "transform": "return arguments[0]===null || arguments[0]=== undefined ? 4 : 1;"
+         }
+      ]
+   },
+    {
+      "optionalInfo": "text_value_info_stringArray#1",
+      "layerId": "stringArray#1",
+      "overrides": [
+        {
+          "scriptingPath": "array.6",
+          "jsonPath": "line7.value",
+          "overrideWithEmpty": true
+        }
+      ]
+    },
+    {
+      "optionalInfo": "text_font_info_typeface#12",
+      "layerId": "typeface#8",
+      "overrides": [
+        {
+          "scriptingPath": "font.font",
+          "jsonPath": "line8.fontFamily"
+        },
+        {
+          "scriptingPath": "font.style",
+          "jsonPath": "line8.fontStyle"
+        }
+      ]
+    },
+    {
+      "optionalInfo": "text_color_info_colorInfo#8",
+      "layerId": "colorInfo#8",
+      "overrides": [
+        {
+          "scriptingPath": "inColor",
+          "jsonPath": "line8.color"
+        }
+      ]
+    },
+    {
+      "optionalInfo": "Color change",
+      "layerId": "colorShader#8",
+      "overrides": [
+         {
+            "scriptingPath": "blendMode",
+            "jsonPath": "line8.color",
+            "transform": "return arguments[0]===null || arguments[0]=== undefined ? 4 : 1;"
+         }
+      ]
+   },
+    {
+      "optionalInfo": "text_value_info_stringArray#1",
+      "layerId": "stringArray#1",
+      "overrides": [
+        {
+          "scriptingPath": "array.7",
+          "jsonPath": "line8.value",
+          "overrideWithEmpty": true
+        }
+      ]
+    },
+    {
+      "optionalInfo": "text_font_info_typeface#13",
+      "layerId": "typeface#9",
+      "overrides": [
+        {
+          "scriptingPath": "font.font",
+          "jsonPath": "line9.fontFamily"
+        },
+        {
+          "scriptingPath": "font.style",
+          "jsonPath": "line9.fontStyle"
+        }
+      ]
+    },
+    {
+      "optionalInfo": "text_color_info_undefined",
+      "layerId": "colorInfo#9",
+      "overrides": [
+        {
+          "scriptingPath": "inColor",
+          "jsonPath": "line9.color"
+        }
+      ]
+    },
+    {
+      "optionalInfo": "Color change",
+      "layerId": "colorShader#9",
+      "overrides": [
+         {
+            "scriptingPath": "blendMode",
+            "jsonPath": "line9.color",
+            "transform": "return arguments[0]===null || arguments[0]=== undefined ? 4 : 1;"
+         }
+      ]
+   },
+    {
+      "optionalInfo": "text_value_info_stringArray#1",
+      "layerId": "stringArray#1",
+      "overrides": [
+        {
+          "scriptingPath": "array.8",
+          "jsonPath": "line9.value",
+          "overrideWithEmpty": true
+        }
+      ]
+    },
+    {
+      "optionalInfo": "text_font_info_typeface#14",
+      "layerId": "typeface#10",
+      "overrides": [
+        {
+          "scriptingPath": "font.font",
+          "jsonPath": "line10.fontFamily"
+        },
+        {
+          "scriptingPath": "font.style",
+          "jsonPath": "line10.fontStyle"
+        }
+      ]
+    },
+    {
+      "optionalInfo": "text_color_info_undefined",
+      "layerId": "colorInfo#10",
+      "overrides": [
+        {
+          "scriptingPath": "inColor",
+          "jsonPath": "line10.color"
+        }
+      ]
+    },
+    {
+      "optionalInfo": "Color change",
+      "layerId": "colorShader#10",
+      "overrides": [
+         {
+            "scriptingPath": "blendMode",
+            "jsonPath": "line10.color",
+            "transform": "return arguments[0]===null || arguments[0]=== undefined ? 4 : 1;"
+         }
+      ]
+   },
+    {
+      "optionalInfo": "text_value_info_stringArray#1",
+      "layerId": "stringArray#1",
+      "overrides": [
+        {
+          "scriptingPath": "array.9",
+          "jsonPath": "line10.value",
+          "overrideWithEmpty": true
+        }
+      ]
+    }
+  ]
+}
